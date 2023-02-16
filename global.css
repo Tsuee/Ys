@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,500;1,700&display=swap');
+
+:root {
+    --background-color: #F5F6FB;
+    --background-overlay: #ffffff;
+
+    --primary-color: #A585FF;
+    --accent-color: #5B4697;
+    --text-color: rgb(0, 0, 0);
+
+    --shadow-header: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    --border-20: 20px;
+    --border-15: 15px;
+    --border-10: 10px;
+    --border-5: 5px;
+
+    --primary-50: rgba(165, 133, 255, 0.5);
+    --primary-10: rgba(165, 133, 255, 0.1);
+
+    --accent-50: rgba(91, 70, 151, 0.5);
+    --accent-20: rgba(91, 70, 151, 0.2);
+
+    --text-50: rgba(0, 0, 0, 0.5);
+    --text-10: rgb(0, 0, 0, 0.1);
+}
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+
+    font-family: 'DM Sans', sans-serif;
+    background-color: var(--background-color);
+}
+
+section {
+    padding: 15px;
+}
+
+
+header {
+    margin: 0px;
+    padding: 15px;
+    margin-bottom: 10px;
+
+    border-bottom-left-radius: var(--border-15);
+    border-bottom-right-radius: var(--border-15);
+
+
+    box-shadow: var(--shadow-header);
+    background-color: var(--background-overlay);
+
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+
+    top: 0px;
+    position: sticky;
+    z-index: 1;
+}
+
+
+.icon {
+    width: 14px;
+    height: 14px;
+}
+
+.perfil {
+    width: 45px;
+    height: 45px;
+
+}
+
+.perfil img {
+    border-radius: 100px;
+}
+
+
+.flex-side {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.flex-side li{
+    background: rgba(91, 70, 151, 0.1);
+    border-radius: 100px;
+    padding: 15px;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+ul, li {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    font-size: 18px;
+    margin: 5px;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+
+nav {
+    background-color: #ffffff;
+    bottom: 0px;
+    z-index: 1;
+    position: sticky;
+
+    box-shadow: 0px -1px 4px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+
+    color: #5B4697;
+    font-size: 14px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px 0px 15px;
+    align-items: center;
+}
+
+nav ul li {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icon-nav {
+    width: 20px;
+    height: 20px;
+}
+
