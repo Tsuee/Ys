@@ -15,9 +15,9 @@
     --border-5: 5px;
 
     --primary-50: rgba(165, 133, 255, 0.5);
-    --primary-10: rgba(165, 133, 255, 0.5);
+    --primary-10: rgba(165, 133, 255, 0.1);
 
-    --accent-50: rgba(91, 70, 151, 0.5);
+    --accent-50: rgba(91, 70, 151, 0.2);
     --accent-20: rgba(165, 133, 255, 0.2);
 
     --text-50: rgba(0, 0, 0, 0.5);
