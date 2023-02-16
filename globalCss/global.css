@@ -133,7 +133,6 @@ nav {
 nav ul{
     display: flex;
     justify-content: space-between;
-    padding: 15px 15px 0px 15px;
     align-items: center;
 }
 
@@ -143,8 +142,5 @@ nav ul li {
     flex-direction: column;
 }
 
-.icon-nav {
-    width: 20px;
-    height: 20px;
-}
+
 
