@@ -48,9 +48,6 @@ main {
     overflow-y: hidden;
     white-space: nowrap;
 
-    -webkit-overflow-scrolling: touch; 
-
-
     margin-top: 20px;
     padding: 0px;
 
