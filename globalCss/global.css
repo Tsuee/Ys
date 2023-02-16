@@ -15,7 +15,7 @@
     --border-5: 5px;
 
     --primary-50: rgba(165, 133, 255, 0.5);
-    --primary-10: rgba(165, 133, 255, 0.1);
+    --primary-10: rgba(165, 133, 255, 0.5);
 
     --accent-50: rgba(91, 70, 151, 0.5);
     --accent-20: rgba(165, 133, 255, 0.2);
@@ -119,7 +119,7 @@ h2 {
 
 nav {
     background-color: #ffffff;
-    bottom: -1;
+    bottom: 1;
     z-index: 1;
     position: sticky;
 
