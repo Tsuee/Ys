@@ -1,0 +1,96 @@
+.banner img{
+    border-radius: var(--border-15);
+    height: 150px;
+}
+
+main {
+    padding: 15px;
+    padding-top: 0px;
+}
+
+.selector-menu {
+    padding-right: 10px;
+    max-width: fit-content;
+    border-radius: var(--border-10);
+
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 10px;
+
+    background-color: var(--accent-20);
+    color: var(--accent-50);
+}
+
+.active {
+  padding: 7px 10px 7px 10px;  
+  border-radius: var(--border-10);  
+
+  background-color: var(--primary-color);
+  color: #FFFFFF;
+}
+
+.selector-menu li {
+    font-size: 14px;
+}
+
+main {
+    padding-top: 16px;
+    margin: 15px;
+    margin-bottom: 30px;
+    border-radius: var(--border-15);
+    background-color: #FFFFFF;
+}
+
+.watch-new {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+
+    -webkit-overflow-scrolling: touch; 
+
+
+    margin-top: 20px;
+    padding: 0px;
+
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+  } 
+
+.watch-new img {
+    width: 300px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.541);
+    
+}
+
+.new-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0px;
+}
+
+.ver-mais {
+    color: var(--accent-color);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.anime-content {
+    
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+ 
+    
+    padding: 0px;
+}
+
+.anime-content img{
+    width: 100px;
+}
