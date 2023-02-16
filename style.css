@@ -41,6 +41,7 @@ main {
     margin-bottom: 30px;
     border-radius: var(--border-15);
     background-color: #FFFFFF;
+    height: 1500px
 }
 
 .watch-new {
