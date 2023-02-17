@@ -118,6 +118,7 @@ h2 {
 
 
 nav {
+    margin: 0px;
     background-color: #ffffff;
     bottom: 0px;
     z-index: 1;
